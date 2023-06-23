@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts"
+
+            android:title="@string/lbl_contacts" />
+        <item
+            android:id="@+id/nav_calllogs"
+            android:icon="@drawable/ic_call_logs"
+            android:title="@string/lbl_call_logs" />
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_sms"
+            android:title="@string/lbl_sms" />
+    </group>
+</menu>

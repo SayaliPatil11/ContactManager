@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyleHeader" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/menu_text_14</item>
+    </style>
+
+    <style name="CustomTextStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/standard_text</item>
+    </style>
+
+    <style name="primaryPositiveButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintWidth_percent">0.60</item>
+
+    </style>
+
+    <style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
